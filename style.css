@@ -100,3 +100,13 @@ body {
     font-family: "Open Sans";
     font-size: 10px;
 }
+
+#copyright {
+  padding: 8px;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 15px;
+}
