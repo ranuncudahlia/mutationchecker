@@ -18,7 +18,7 @@ body {
   height: 100px;
   margin: 10px auto 0px auto;
   overflow: hidden;
-  color: red;
+  background-color: red;
 }
 
 .textInput {
@@ -32,11 +32,11 @@ body {
   height: 100%;
   float: left;
   overflow: hidden;
-  color: blue;
+  background-color: blue;
 }
 
 .buttonContents {
-    color: orange;
+    background-color: orange;
 }
 
 .checkButton {
@@ -57,7 +57,7 @@ body {
   height: 500px;
   margin: 20px auto 0 auto;
   overflow: hidden;
-  color: yellow;
+  background-color: yellow;
 }
 
 .offspringContainer img {
