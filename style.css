@@ -87,7 +87,7 @@ body {
     font-family: "Open Sans";
 }
 
-#credits {
+.credits {
     width: 173px;
     padding: 10px;
     position: fixed;
@@ -108,4 +108,12 @@ body {
   right: 10px;
   color: #fff;
   font-size: 20px;
+}
+
+a.credits, a.credits:visited, a.credits:active {
+  color: #000;
+}
+
+a.credits:hover {
+  color: #fff;
 }
