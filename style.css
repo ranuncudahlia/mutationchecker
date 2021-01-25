@@ -53,8 +53,8 @@ body {
 
 .botContents {
   position: relative;
-  width: 800px;
-  height: 625px;
+  width: 640px;
+  height: 500px;
   margin: 20px auto 0 auto;
   overflow: hidden;
   background-color: yellow;
@@ -64,8 +64,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  max-width: 800px;
-  max-height: 625px;
+  max-width: 640px;
+  max-height: 500px;
 }
 
 
