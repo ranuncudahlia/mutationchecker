@@ -20,6 +20,7 @@
             <div class="buttonContents">
                 <center>
                 <button class="checkButton" onclick="mutationCheck()">Check Result</button>
+                <button class="checkButton" onclick="toggleFunction()">Toggle Image</button>
                 </center>
             </div>
             <div class="botContents">
@@ -33,7 +34,8 @@
                 <center>Instructions:</center>
                 <br />1. Copy & Paste the URL (in Base64 format) of the scry result you would like to check. You can use right-click "copy link" for this.
                 <br />2. Select which mutation you would like to check for, Albino or Melanism.
-                <br />3. Click "check result." If it has the mutation, it will appear completely still. If it does not have the mutation, you will see a slight animation as the image flickers between your scry result and the reference image.
+                <br />3. Click "check result" to load your image.
+                <br />4. Click "toggle image" to check the base image. If it seems like nothing happens, your offspring has the mutation. Otherwise, you will be able to see the differences.
                 <p><i><center>Click me to make me go away.</center></i></p>
             </div>
             <script>
@@ -46,6 +48,15 @@
             }
         }
         </script>
+            <script>
+                function toggleFunction() {
+                  var x = document.getElementById("offspringImport");
+                  if (x.style.display === "none") {
+                    x.style.display = "block";
+                  } else {
+                    x.style.display = "none";
+                  }
+                }
         </div>
     </body>
 </html>
