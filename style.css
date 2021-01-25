@@ -24,7 +24,8 @@ body {
 .textInput {
   margin: 2px;
   text-align: left;
-  width: 100%;
+  width: 90%;
+  height: 250px;
 }
 
 #mutationSelect {
