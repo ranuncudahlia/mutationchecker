@@ -50,6 +50,11 @@ body {
   text-align: center;
 }
 
+.checkButton:active {
+  background-color: #071833;
+}
+  
+
 .botContents {
   position: relative;
   width: 640px;
@@ -110,10 +115,10 @@ body {
   font-size: 20px;
 }
 
-a.credits, a.credits:visited, a.credits:active {
+credits a, credits a:visited, credits a:active {
   color: #000;
 }
 
-a.credits:hover {
+credits a:hover {
   color: #fff;
 }
