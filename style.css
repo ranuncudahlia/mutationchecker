@@ -86,3 +86,17 @@ body {
     border-radius: 10px;
     font-family: "Open Sans";
 }
+
+#credits {
+    width: 300px;
+    padding: 8px;
+    position: fixed;
+    bottom: 15px;
+    cursor: pointer;
+    right: 15px;
+    background-color: rgba(255, 255, 255, 0.35);
+    color: #6d877f;
+    border-radius: 10px;
+    font-family: "Open Sans";
+    font-size: 10px;
+}
