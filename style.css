@@ -115,10 +115,10 @@ body {
   font-size: 20px;
 }
 
-credits a, credits a:visited, credits a:active {
+a, a:visited, a:active {
   color: #000;
 }
 
-credits a:hover {
+a:hover {
   color: #fff;
 }
