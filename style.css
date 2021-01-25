@@ -88,8 +88,8 @@ body {
 }
 
 #credits {
-    width: 200px;
-    padding: 8px;
+    width: 173px;
+    padding: 10px;
     position: fixed;
     bottom: 15px;
     cursor: pointer;
@@ -99,6 +99,7 @@ body {
     border-radius: 10px;
     font-family: "Open Sans";
     font-size: 10px;
+    text-align: right;
 }
 
 #copyright {
