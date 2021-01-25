@@ -19,14 +19,13 @@ body {
   height: 300px;
   margin: 10px auto 0px auto;
   overflow: hidden;
-  background-color: red;
 }
 
 .textInput {
   margin: 2px;
   text-align: left;
   width: 90%;
-  height: 250px;
+  height: 150px;
 }
 
 #mutationSelect {
@@ -34,11 +33,9 @@ body {
   height: 100%;
   float: left;
   overflow: hidden;
-  background-color: blue;
 }
 
 .buttonContents {
-    background-color: orange;
 }
 
 .checkButton {
@@ -59,7 +56,6 @@ body {
   height: 500px;
   margin: 20px auto 0 auto;
   overflow: hidden;
-  background-color: yellow;
 }
 
 .offspringContainer img {
