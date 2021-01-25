@@ -14,8 +14,8 @@ body {
 }
 
 .topContents {
-  width: 690px;
-  height: 100px;
+  width: 650px;
+  height: 300px;
   margin: 10px auto 0px auto;
   overflow: hidden;
   background-color: red;
@@ -23,8 +23,8 @@ body {
 
 .textInput {
   margin: 2px;
-  text-align: center;
-  width: 50%;
+  text-align: left;
+  width: 100%;
 }
 
 #mutationSelect {
