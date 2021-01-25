@@ -12,10 +12,10 @@ function mutationCheck() {
             window.alert("Please select only one mutation type.");
             }
         else {
-            offspringBase.src = "melareference.png";
+            offspringBase.src = "melaref.png";
         }
     } else if (albinoCheck == true) {
-        offspringBase.src = "albinoreference.png";
+        offspringBase.src = "albinoref.png";
     } else {
         window.alert("You must select which mutation you are checking for. Please select one of the checkboxes above.");
         }
