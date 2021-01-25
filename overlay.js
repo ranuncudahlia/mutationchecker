@@ -22,6 +22,4 @@ function mutationCheck() {
 
     offspringImport.src = importText.value;
     
-    window.alert(importText.value);
-    
 }
