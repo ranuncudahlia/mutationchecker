@@ -1,29 +1,47 @@
-<html><head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIY Wolf Tutorial</title>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
-  </head>
-<body>
-<div class="topcontents">
-<center>
-	<button class="offspringButton" onclick="offspringCalculate()">Calculate Offspring</button>
-	</center>
-<div class="offspringContainer">
-<img id="offspringBase" src="">
-<img id="offspringImport" src="">
-</div>
-</div>
-    <script src="overlay.js" type="text/javascript"></script> 
-<div id="popup" onclick="popFunction()"><center>Instructions:</center><br />1. Copy & Paste the URL (in Base64 format) of the scry result you would like to check. You can use right-click "copy link" for this.<br />2. Select which mutation you would like to check for, Albino or Melanism.<br />3. Click "check result." If it has the mutation, it will appear completely still. If it does not have the mutation, you will see a slight animation as the image flickers between your scry result and the reference image.<p><i><center>Click me to make me go away.</center></i></div>
-<script>
-function popFunction() {
-    var x = document.getElementById('popup');
-    if (x.style.display === 'none') {
-        x.style.display = 'inline-block';
-    } else {
-        x.style.display = 'none';
-    }
-}
-</script>
-</body></html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wolvden Mutation Checker</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+    <body>
+        <div class="topcontents">
+            <div class="textInput">
+                <center></center>
+            </div>
+            <div class="mutationSelect">
+                <center></center>
+            </div>
+        </div>
+        <div class="buttonContents">
+            <center>
+            <button class="checkButton" onclick="mutationCheck()">Check Result</button>
+            </center>
+        </div>
+        <div class="botContents">
+            <div class="displayImage">
+                <img id="offspringBase" src="">
+                <img id="offspringImport" src="">
+            </div>
+        </div>
+        <script src="overlay.js" type="text/javascript"></script> 
+        <div id="popup" onclick="popFunction()">
+            <center>Instructions:</center>
+            <br />1. Copy & Paste the URL (in Base64 format) of the scry result you would like to check. You can use right-click "copy link" for this.
+            <br />2. Select which mutation you would like to check for, Albino or Melanism.
+            <br />3. Click "check result." If it has the mutation, it will appear completely still. If it does not have the mutation, you will see a slight animation as the image flickers between your scry result and the reference image.
+            <p><i><center>Click me to make me go away.</center></i></p>
+        </div>
+        <script>
+        function popFunction() {
+            var x = document.getElementById('popup');
+            if (x.style.display === 'none') {
+                x.style.display = 'inline-block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+        </script>
+    </body>
+</html>
