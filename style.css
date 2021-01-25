@@ -1,5 +1,5 @@
 body {
-  background-image: url("img/background.jpg");
+  background-image: url("background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% auto;
@@ -13,7 +13,33 @@ body {
  padding: 5px;
 }
 
-.offspringButton {
+.topContents {
+  width: 690px;
+  height: 100px;
+  margin: 10px auto 0px auto;
+  overflow: hidden;
+  color: red;
+}
+
+.textInput {
+  margin: 2px;
+  text-align: center;
+  width: 50%;
+}
+
+#mutationSelect {
+  width: 50%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  color: blue;
+}
+
+.buttonContents {
+    color: orange;
+}
+
+.checkButton {
   background-color: #1b2f4f;
   border-radius: 6px;
   border: none;
@@ -25,93 +51,13 @@ body {
   text-align: center;
 }
 
-.parentContainer {
-  width: 690px;
-  height: 100px;
-  margin: 10px auto 0px auto;
-  overflow: hidden;
-}
-
-.parent-name {
-  margin: 2px;
-  text-align: center;
-  width: 50%;
-}
-
-#mSelect {
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  position: relative;
-  float: left;
-  overflow: hidden;
-}
-
-
-#fSelect {
-  width: 50%;
-  height: 100%;
-  text-align: center;
-  position: relative;
-  float: right;
-  overflow: hidden;
-}
-
-.parentgenes {
-  width: 50%;
-  margin: 2px;
-  text-align: center;
-}
-
-.markingContainer {
-  width: 690px;
-  height: 255px;
-  margin: 0px auto 10px auto;
-  overflow: hidden;
-  text-align: center;
-}
-
-form {
-  height: 7px;
-}
-
-.markingContainer input {
-  font-size: 12px;
-  text-align: left;
-}
-
-#mmarkingSelect {
-  width: 50%;
-  height: 100%;
-  float: left;
-  overflow: hidden;
-}
-
-#fmarkingSelect {
-  width: 50%;
-  height: 100%;
-  float: right;
-  overflow: hidden;
-}
-
-.markingcolor {
-  width: 30%;
-}
-
-.markingshape {
-  width: 45%;
-}
-
-.opacityinput {
-  width: 13%;
-}
-
-.offspringContainer {
+.botContents {
   position: relative;
   width: 640px;
   height: 500px;
   margin: 20px auto 0 auto;
   overflow: hidden;
+  color: yellow;
 }
 
 .offspringContainer img {
